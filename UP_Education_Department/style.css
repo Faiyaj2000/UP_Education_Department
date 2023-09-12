@@ -1,0 +1,365 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar 1 Styles */
+.navbar {
+    background-color: #333;
+    color: white;
+    /* padding: 10px 0; */
+}
+
+.container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.contact-link {
+    color: white;
+    text-decoration: none;
+    /* margin-right: 10px; */
+    display: flex;
+    align-items: center;
+}
+
+/* .contact-link i {
+    margin-right: 5px;
+} */
+
+/* .screen-reader-link {
+    color: white;
+    text-decoration: none;
+} */
+
+/* Navbar 2 Styles */
+.navbar2 {
+    background-color: #f0f0f0;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-right: 20px;
+    height: 100px;
+    width: 100px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container form {
+    display: flex;
+}
+
+.search-container input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-container button {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+    .container-fluid {
+        justify-content: center;
+    }
+
+    .navbar2 {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* Basic styling for the navigation bar */
+.navbar3{
+    height: 60px;
+    background-color: rgb(250, 122, 76);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+      
+      .dropdown-menu:hover {
+        background-color: rgb(250, 122, 76);/* Change this to the desired hover color */
+        color: #f88787; /* Change this to the desired text color */
+      }
+      .btn:hover {
+        background-color: #f44336; /* Change this to the desired hover color */
+        border-color: #f44336; /* Change this to the desired border color */
+      }
+
+  
+    
+}
+
+/* container0 */
+
+
+
+
+/* Container */
+/* Basic styling for the hero section */
+.hero_section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Styling for individual image containers */
+.image-container {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    transition: all 1.5s ease;
+    
+}
+.image-container:hover img{
+          transform: scale(1.5);
+}
+
+.image-container h4 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.image-container p {
+    margin: 5px 0;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    /* background-image: url('G20_I.webp'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    padding: 20px;
+}
+
+.container2 {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    height: 450px;
+    width: 700px;
+
+
+    
+}
+/* Your existing styles ... */
+
+.read-more-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.read-more-link:hover {
+    text-decoration: underline;
+}
+
+
+
+.left-container {
+    background-color: #f5f5f5;
+    height: 450px;
+    width: 300px;
+    image-rendering: auto;
+
+}
+.left-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    transition: all 1.5s ease;
+    
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: #ffffff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
+
+
+
+/* container3 */
+
+.container3 {
+    padding: 20px;
+    background-color: rgb(250, 247, 244); 
+}
+
+
+.centered-heading {
+    margin-bottom: 20px;
+}
+
+.card-body {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 5.25rem;
+}
+.website-box {
+    background-color: #ed6666;
+    border-radius: 4.25rem;
+    padding: -0.75rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+  
+}
+
+.website-box a {
+    text-decoration: none;
+    color: #333;
+}
+
+.website-box a:hover {
+    text-decoration: underline;
+}
+
+
+/* footer */
+.footer {
+    background-color:#2d2f58;
+    color: white;
+    padding: 50px 0;
+}
+
+.footer-content {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.icons a {
+    color: white;
+    margin: 0 2px;
+}
+
+.footer h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.footer ul li {
+    margin-bottom: 5px;
+}
+
+.footer li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer li a:hover {
+    color: #f39c12;
+}
+.p{
+    font-size: 12px;
+}
+button:focus{
+    outline:none!important;
+  }
+  #chcp_font_size button {
+    border: none;
+    background-color:transparent;
+    /*background-color:#eee;*/
+    text-shadow: none;
+    /*+box-shadow: none;*/
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding:0px 5px;
+    margin:0px;
+    color: #f5f5f5;
+    
+  }
+  #chcp_font_size button:hover{
+    color:#FF5100;
+  }
+  #btn-decrease {
+    font-size:12px;
+  }
+  #btn-orig {
+    font-size:14px;
+  }
+  #btn-increase {
+    font-size:12px;
+  }
+
+
+/*  */
+
+
+
+  /* body {font-family: Arial, Helvetica, sans-serif;} */
+
+
+
+
